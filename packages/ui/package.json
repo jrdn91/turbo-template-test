@@ -5,16 +5,16 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint \"**/*.ts*\"",
-    "generate:component": "turbo gen react-component"
+    "lint": "eslint \"**/*.ts*\""
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "eslint": "^7.32.0",
-    "eslint-config-custom": "workspace:*",
-    "react": "^17.0.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.45.0",
+    "eslint-config-base": "workspace:*",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "react": "^18.2.0",
     "tsconfig": "workspace:*",
-    "typescript": "^4.5.2"
+    "typescript": "^5.0.2"
   }
 }
